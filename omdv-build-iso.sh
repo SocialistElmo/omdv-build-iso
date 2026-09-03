@@ -1215,7 +1215,8 @@ MyRmv() {
 # Any duplicates that appear in both lists removed from BOTH lists
 # This works even if the packages are not installed
 		printf "%s" "-> Removing user specified rpms and orphans" " "
-		/usr/bin/dnf autoremove -y --installroot "$CHROOTNAME" "$__remove_list"
+		/usr/bin/dnf remove -y --installroot "$CHROOTNAME" "$__remove_list"
+		/usr/bin/dnf autoremove -y --installroot "$CHROOTNAME"
 	else
 		printf "%s\n" " " "-> No rpms need to be removed"
 	fi

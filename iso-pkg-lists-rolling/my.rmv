@@ -1,1 +1,90 @@
+# Excluded desktop & system packages
+gnome-power-manager
+gnome-terminal
+console
+yelp
+cheese
+eog
+evince
+gedit
+gdm
+gnome-packagekit
+gnome-terminal-nautilus
 
+# Excluded apps & games
+epiphany
+gnome-games
+aisleriot
+gnome-chess
+gnome-mahjongg
+gnome-nibbles
+rhythmbox
+totem
+transmission-gtk
+simple-scan
+shotwell
+gthumb
+sushi
+vino
+vinagre
+polari
+fractal
+gnome-maps
+gnome-music
+g4music
+gnome-photos
+shortwave
+bijiben
+gnome-builder
+gnome-dictionary
+foliate
+gnome-sound-recorder
+gnome-usage
+gnome-system-log
+gnome-commander
+gucharmap
+mousetweaks
+
+# Excluded office, graphics & utilities
+brasero
+caribou
+caribou-gtk3
+evolution
+gnome-contacts
+gimp
+inkscape
+
+# Excluded fonts & X11 packages
+x11-font-cyrillic
+x11-docs
+
+# Excluded desktop engine & apps
+firewall-applet
+gtk-xfce-engine
+ia_ora-gnome
+usbmuxd
+pam_ldap
+samba-server
+
+# Excluded python packages
+python-ldap
+python-notify
+python-OpenSSL
+python-pycrypto
+python-sip
+pyxdg
+
+# Excluded OpenMandriva specific components
+gnome-initial-setup
+gnome-tour
+om-feeling-like
+oma-welcome
+om-control-center
+om-update-config
+om-repo-picker
+
+# Excluded feeling/theme integrations
+libyui-gtk
+libyui-mga-gtk
+libreoffice-gnome
+libreoffice-gtk3-kde5

@@ -33,7 +33,7 @@ gnome-system-monitor
 #gnome-terminal
 #console
 ptyxis
-#ghostty
+ghostty
 gnome-themes-standard
 nautilus
 networkmanager

@@ -834,6 +834,9 @@ InstallRepos() {
 		fi
 		# we must make sure that the rpmcache is retained
 		printf "%s\n" "keepcache=1" >> $CHROOTNAME/etc/dnf/dnf.conf
+		printf "%s\n" "keepcache=1" >> $CHROOTNAME/etc/dnf/dnf.conf
+		printf "%s\n" "max_parallel_downloads=10" >> $CHROOTNAME/etc/dnf/dnf.conf
+		printf "%s\n" "fastestmirror=True" >> $CHROOTNAME/etc/dnf/dnf.conf
 		# This setting will be overwritten when the repos are re-installed at the end; however
 		# because the repo rpms are installed with rpm -Uvh the cache wont be cleared as dnf won't be run so the vache must be removed.
 	fi

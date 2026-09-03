@@ -7,7 +7,7 @@ cheese
 eog
 evince
 gedit
-gdm
+# gdm
 gnome-packagekit
 gnome-terminal-nautilus
 
@@ -59,12 +59,12 @@ x11-font-cyrillic
 x11-docs
 
 # Excluded desktop engine & apps
-firewall-applet
+# firewall-applet
 gtk-xfce-engine
 ia_ora-gnome
-usbmuxd
+# usbmuxd
 pam_ldap
-samba-server
+# samba-server
 
 # Excluded python packages
 python-ldap

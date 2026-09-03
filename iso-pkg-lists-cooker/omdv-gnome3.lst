@@ -10,7 +10,7 @@
 %include .///omdv_firefox.lst
 %include .///omdv_fonts.lst
 %include .///omdv_gstreamer.lst
-%include .///omdv_libreoffice.lst
+#%include .///omdv_libreoffice.lst
 %include .///omdv_locales.lst
 #%include .///omdv_man-pages.lst
 %include .///omdv_pulseaudio.lst
@@ -33,6 +33,7 @@ gnome-system-monitor
 #gnome-terminal
 #console
 ptyxis
+#ghostty
 gnome-themes-standard
 nautilus
 networkmanager
@@ -40,9 +41,9 @@ networkmanager
 task-x11
 xdg-desktop-portal-gnome
 
-cheese
+#cheese
 #eog
-evince
+#evince
 file-roller
 gnome-calculator
 #gedit
@@ -57,30 +58,30 @@ gnome-software
 
 #epiphany # disable to save space on ISO
 #gnome-games
-aisleriot
+#aisleriot
 firefox
-gnome-chess
-gnome-mahjongg
-gnome-nibbles
+#gnome-chess
+#gnome-mahjongg
+#gnome-nibbles
 #rhythmbox
 clapper
 #totem
-transmission-gtk
-simple-scan
-shotwell
+#transmission-gtk
+#simple-scan
+#shotwell
 # disable gthumb until is not ported to gtk4. Keep alpha gtk4 shotwell
 #gthumb
 #sushi
 #vino
 #vinagre
-polari
-fractal
+#polari
+#fractal
 
-gnome-maps
+#gnome-maps
 #gnome-music
-g4music
+#g4music
 #gnome-photos
-shortwave
+#shortwave
 
 #bijiben
 gnome-characters
@@ -88,14 +89,14 @@ gnome-clocks
 # Builder is needed only for developers.
 #gnome-builder
 #gnome-dictionary
-foliate
+#foliate
 gnome-font-viewer
-gnome-sound-recorder
+#gnome-sound-recorder
 #gnome-usage
 gnome-weather
 baobab
 #gnome-system-log
-gnome-commander
+#gnome-commander
 gnome-firmware
 gnome-calendar
 
@@ -103,14 +104,14 @@ gnome-calendar
 #mousetweaks
 
 # biz / office / utils
-brasero
-caribou
-caribou-gtk3
-evolution
-gnome-contacts
+#brasero
+#caribou
+#caribou-gtk3
+#evolution
+#gnome-contacts
 gparted
-gimp
-inkscape
+#gimp
+#inkscape
 loupe
 om-imagewriter
 
@@ -184,7 +185,7 @@ openssl
 poppler-data
 sasl-plug-gssapi
 
-#openssh-server #server
+openssh-server #server
 #samba-server #server
 
 #python deps?
@@ -220,5 +221,5 @@ flatpak
 #libyui-mga-gtk
 # for LibreOffice
 # this one crashing? Need invesigate
-libreoffice-gnome
+#libreoffice-gnome
 #libreoffice-gtk3-kde5
